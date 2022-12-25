@@ -7,3 +7,12 @@ This application implements java swing to draw out a visual of the process of lo
 - Insertion Sort
 - Selection Sort
 - Bubble Sort
+
+# Insertion Sort
+![InsertionSort](https://user-images.githubusercontent.com/96448477/209458879-c9d59038-6dc2-4cf1-b380-e59b9161fb7e.gif)
+
+# Selection Sort
+![SelectionSort](https://user-images.githubusercontent.com/96448477/209458885-ec15216c-4184-4a28-aac7-0670d7d679ce.gif)
+
+# Bubble Sort
+![BubbleSort](https://user-images.githubusercontent.com/96448477/209458891-b9441f5c-fb28-434f-a625-469d5e7d307b.gif)
