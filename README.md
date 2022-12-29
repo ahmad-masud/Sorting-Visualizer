@@ -13,13 +13,13 @@ This application implements java swing to draw out a visual of the process of lo
 - Bubble Sort
 
 # Insertion Sort
-![InsertionSort](https://user-images.githubusercontent.com/96448477/209458879-c9d59038-6dc2-4cf1-b380-e59b9161fb7e.gif)
+![InsertionSort](https://user-images.githubusercontent.com/96448477/209897862-169cc23a-3352-4f0b-b5c5-205c23ab4a36.gif)
 
 # Selection Sort
-![SelectionSort](https://user-images.githubusercontent.com/96448477/209458885-ec15216c-4184-4a28-aac7-0670d7d679ce.gif)
+![SelectionSort](https://user-images.githubusercontent.com/96448477/209897874-3c63209a-e17c-4dab-a050-a4c5797f610a.gif)
 
 # Bubble Sort
-![BubbleSort](https://user-images.githubusercontent.com/96448477/209458891-b9441f5c-fb28-434f-a625-469d5e7d307b.gif)
+![BubbleSort](https://user-images.githubusercontent.com/96448477/209897888-c0d4cb58-c995-48f4-8ee0-430162542454.gif)
 
 # Build Output Description
 When you build an Java application project that has a main class, the IDE
