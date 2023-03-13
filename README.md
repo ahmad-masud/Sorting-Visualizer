@@ -8,18 +8,19 @@ This application implements java swing to draw out a visual of the process of lo
 - Netbeans
 
 # Implemented Algorithms
-- Insertion Sort
-- Selection Sort
 - Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
 
-# Insertion Sort
-![InsertionSort](https://user-images.githubusercontent.com/96448477/209897862-169cc23a-3352-4f0b-b5c5-205c23ab4a36.gif)
+# Bubble Sort
+![BubbleSort]
 
 # Selection Sort
 ![SelectionSort](https://user-images.githubusercontent.com/96448477/209897874-3c63209a-e17c-4dab-a050-a4c5797f610a.gif)
 
-# Bubble Sort
-![BubbleSort](https://user-images.githubusercontent.com/96448477/209897888-c0d4cb58-c995-48f4-8ee0-430162542454.gif)
+# Insertion Sort
+![InsertionSort](https://user-images.githubusercontent.com/96448477/209897862-169cc23a-3352-4f0b-b5c5-205c23ab4a36.gif)
 
 # Build Output Description
 When you build an Java application project that has a main class, the IDE
