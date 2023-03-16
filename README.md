@@ -1,4 +1,4 @@
-# Sorting-Algorithm-Visualizer
+# Sorting-Visualizer
 A Java Frame Application to visualize sorting algorithms.
 
 This application implements java swing to draw out a visual of the process of loop sorting. There are interactive buttons to visualize different sorting algorithms and a slider to change the delay in between swaps. The height of each bar corresponds to its value and its x position corresponds to it's index in the array.
@@ -14,13 +14,19 @@ This application implements java swing to draw out a visual of the process of lo
 - Merge Sort
 
 # Bubble Sort
-![BubbleSort]
+![BubbleSort](https://user-images.githubusercontent.com/96448477/225763993-f77f766b-5bb5-42d2-9a47-e6b813f77c02.gif)
 
 # Selection Sort
-![SelectionSort](https://user-images.githubusercontent.com/96448477/209897874-3c63209a-e17c-4dab-a050-a4c5797f610a.gif)
+![SelectionSort](https://user-images.githubusercontent.com/96448477/225764076-949c91e6-56ea-4332-bf1c-5cdaed82ca0d.gif)
 
 # Insertion Sort
-![InsertionSort](https://user-images.githubusercontent.com/96448477/209897862-169cc23a-3352-4f0b-b5c5-205c23ab4a36.gif)
+![InsertionSort](https://user-images.githubusercontent.com/96448477/225764105-3e81a4d2-1ede-4616-9e61-04b21659e68f.gif)
+
+# Merge Sort
+![MergeSort](https://user-images.githubusercontent.com/96448477/225764160-08a44a1b-53ce-4ce2-b07e-028b223639b4.gif)
+
+# Quick Sort
+![QuickSort](https://user-images.githubusercontent.com/96448477/225764172-ea097623-c109-41ae-a372-1495b9a58c1c.gif)
 
 # Build Output Description
 When you build an Java application project that has a main class, the IDE
