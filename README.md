@@ -1,11 +1,50 @@
-# Sorting-Visualizer
-A Java Frame Application to visualize sorting algorithms.
+# Sorting Visualizer
 
-This application implements java swing to draw out a visual of the process of loop sorting. There are interactive buttons to visualize different sorting algorithms and a slider to change the delay in between swaps. The height of each bar corresponds to its value and its x position corresponds to it's index in the array.
+## Overview
+Sorting Visualizer is a Java-based application designed to visually demonstrate how different sorting algorithms work. It allows users to see the real-time sorting process, understand the mechanics behind each algorithm, and compare their performance.
 
-# Stack
-- Java
-- Netbeans
+## Features
+- Visual representation of sorting algorithms in real-time.
+- Supports multiple sorting algorithms, including but not limited to Bubble Sort, Quick Sort, Merge Sort, and Insertion Sort.
+- Interactive GUI for easy manipulation and observation.
+
+## Technology Stack
+- **Java**: Core programming language used for application development.
+- **Apache Ant**: Utilized for automating build processes.
+- **NetBeans IDE**: The project is developed and configured via NetBeans IDE, facilitating code development and management.
+
+## Setup Instructions
+1. **Prerequisites**:
+   - Ensure Java Development Kit (JDK) is installed on your system.
+   - Apache Ant should be installed for building the project (optional if using NetBeans IDE directly).
+
+2. **Clone or download the project**:
+   - Obtain the project files by cloning this repository or downloading the provided ZIP file.
+
+3. **Open the project in NetBeans IDE**:
+   - Launch NetBeans IDE and open the project by navigating to `File` > `Open Project`, and select the `SortingVisualizer` directory.
+
+4. **Build the project**:
+   - In NetBeans, right-click on the project name in the Projects window and select `Build` (or `Clean and Build` if you prefer).
+
+5. **Run the application**:
+   - After building, right-click on the project name and select `Run` to launch the Sorting Visualizer.
+
+Alternatively, if you prefer using the command line with Apache Ant:
+- Navigate to the project root directory in the terminal.
+- Run `ant build` to compile the project.
+- Execute `ant run` to start the application (ensure your `build.xml` is configured to support this command).
+
+## Usage
+- Once the application is running, select an algorithm from the available list.
+- Initiate the sorting process to see the algorithm in action.
+- Observe the sorting in real-time and compare the performance metrics displayed.
+
+## Contributing
+Contributions to the Sorting Visualizer are welcome. Please feel free to fork the project, make your changes, and submit a pull request for review.
+
+## License
+Specify your licensing information here. If not otherwise stated, the project is provided as-is without any warranty or support.
 
 # Implemented Algorithms
 - Bubble Sort
@@ -28,33 +67,3 @@ This application implements java swing to draw out a visual of the process of lo
 
 # Quick Sort
 ![QuickSort](https://user-images.githubusercontent.com/96448477/225764172-ea097623-c109-41ae-a372-1495b9a58c1c.gif)
-
-# Build Output Description
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
-
-To run the project from the command line, go to the dist folder and
-type the following:
-
-java -jar "SortingVisualizer.jar" 
-
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
-
-Notes:
-
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
