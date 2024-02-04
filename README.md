@@ -44,7 +44,7 @@ Alternatively, if you prefer using the command line with Apache Ant:
 Contributions to the Sorting Visualizer are welcome. Please feel free to fork the project, make your changes, and submit a pull request for review.
 
 ## License
-Specify your licensing information here. If not otherwise stated, the project is provided as-is without any warranty or support.
+Quant Market Predictor is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 # Implemented Algorithms
 - Bubble Sort
