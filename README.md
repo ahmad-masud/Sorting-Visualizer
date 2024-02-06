@@ -57,13 +57,13 @@ Quant Market Predictor is released under the MIT License. See the [LICENSE](LICE
 ![BubbleSort](images/bubblesort.gif)
 
 # Selection Sort
-![SelectionSort](https://user-images.githubusercontent.com/96448477/225764076-949c91e6-56ea-4332-bf1c-5cdaed82ca0d.gif)
+![SelectionSort](images/selectionsort.gif)
 
 # Insertion Sort
-![InsertionSort](https://user-images.githubusercontent.com/96448477/225764105-3e81a4d2-1ede-4616-9e61-04b21659e68f.gif)
+![InsertionSort](images/insertionsort.gif)
 
 # Merge Sort
-![MergeSort](https://user-images.githubusercontent.com/96448477/225764160-08a44a1b-53ce-4ce2-b07e-028b223639b4.gif)
+![MergeSort](images/mergesort.gif)
 
 # Quick Sort
-![QuickSort](https://user-images.githubusercontent.com/96448477/225764172-ea097623-c109-41ae-a372-1495b9a58c1c.gif)
+![QuickSort](images/quicksort.gif)
