@@ -62,7 +62,7 @@ public final class Panel extends JPanel implements ActionListener {
         }
     }
     
-    private void resetList() {
+    public void resetList() {
         Random rand = new Random();
         for (int i = 0; i < list.length; i++) {
             list[i] = rand.nextInt(WINDOW_HEIGHT);
@@ -139,16 +139,15 @@ public final class Panel extends JPanel implements ActionListener {
         void sort(int[] list);
     }
     
-    public boolean checkSorted(int list[]) {
+    public void checkSorted(int[] list) {
         sorted[0] = true;
         for (int i = 1; i < list.length; i++) {
             if (list[i]<list[i-1]) {
-                return false;
+                return;
             }
             sorted[i] = true;
             animate(i, 1000000);
         }
-        return true;
     }
     
     public void animate(int j, long delay) {
@@ -183,6 +182,7 @@ public final class Panel extends JPanel implements ActionListener {
                 case "SelectionSort" -> algorithm = new SelectionSort(this);
                 case "InsertionSort" -> algorithm = new InsertionSort(this);
                 case "QuickSort" -> algorithm = new QuickSort(this);
+                case null -> {}
                 default -> throw new IllegalArgumentException("Invalid Algorithm: " + selected);
             }
         }

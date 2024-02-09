@@ -1,8 +1,14 @@
 public class QuickSort implements Panel.SortingAlgorithm {
     
     private final Panel visualizer;
-    
+    private final boolean test;
+
+    public QuickSort() {
+        test = true;
+        this.visualizer = null;
+    }
     public QuickSort(Panel visualizer) {
+        test = false;
         this.visualizer = visualizer;
     }
     
@@ -16,19 +22,25 @@ public class QuickSort implements Panel.SortingAlgorithm {
                 int temp = list[i];
                 list[i] = list[j];
                 list[j] = temp;
-                visualizer.animate(i, 2500000);
+                if (!test && visualizer != null) {
+                    visualizer.animate(i, 2500000);
+                }
             }
         }
         int temp = list[i+1];
         list[i+1] = list[high];
         list[high] = temp;
-        visualizer.animate(i+1, 2500000);
+        if (!test && visualizer != null) {
+            visualizer.animate(i + 1, 2500000);
+        }
         return (i + 1);
     }
     
     public void sortList(int[] list, int low, int high) {
         if (low < high) {
-            if (visualizer.threadInterrupted()) return;
+            if (!test && visualizer != null) {
+                if (visualizer.threadInterrupted()) return;
+            }
             int pi = partition(list, low, high);
   
             sortList(list, low, pi - 1);
@@ -37,10 +49,12 @@ public class QuickSort implements Panel.SortingAlgorithm {
     }
     
     @Override
-    public void sort(int list[]) {
+    public void sort(int[] list) {
         sortList(list, 0, list.length-1);
-        if (visualizer.threadInterrupted()) return;
-        visualizer.checkSorted(list);
-        visualizer.buttonsEnabled(true);
+        if (!test && visualizer != null) {
+            if (visualizer.threadInterrupted()) return;
+            visualizer.checkSorted(list);
+            visualizer.buttonsEnabled(true);
+        }
     }
 }

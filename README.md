@@ -10,30 +10,24 @@ Sorting Visualizer is a Java-based application designed to visually demonstrate 
 
 ## Technology Stack
 - **Java**: Core programming language used for application development.
-- **Apache Ant**: Utilized for automating build processes.
-- **NetBeans IDE**: The project is developed and configured via NetBeans IDE, facilitating code development and management.
+- **Maven**: Utilized for automating build processes and managing dependencies.
+- **Any IDE** or **Text Editor**: The project can be developed and configured using any IDE or text editor, though examples are provided for command line operations for simplicity.
 
 ## Setup Instructions
 1. **Prerequisites**:
    - Ensure Java Development Kit (JDK) is installed on your system.
-   - Apache Ant should be installed for building the project (optional if using NetBeans IDE directly).
+   - Maven should be installed for building and managing the project's dependencies.
 
 2. **Clone or download the project**:
    - Obtain the project files by cloning this repository or downloading the provided ZIP file.
 
-3. **Open the project in NetBeans IDE**:
-   - Launch NetBeans IDE and open the project by navigating to `File` > `Open Project`, and select the `SortingVisualizer` directory.
+3. **Building the Project with Maven**:
+   - Navigate to the project root directory in the terminal.
+   - Run `mvn clean install` to build the project and install the artifact into your local repository.
 
-4. **Build the project**:
-   - In NetBeans, right-click on the project name in the Projects window and select `Build` (or `Clean and Build` if you prefer).
-
-5. **Run the application**:
-   - After building, right-click on the project name and select `Run` to launch the Sorting Visualizer.
-
-Alternatively, if you prefer using the command line with Apache Ant:
-- Navigate to the project root directory in the terminal.
-- Run `ant build` to compile the project.
-- Execute `ant run` to start the application (ensure your `build.xml` is configured to support this command).
+4. **Running the Application**:
+   - After building, execute `mvn exec:java` to run the application directly via Maven.
+   - Alternatively, you can run the generated JAR file manually. Find the JAR in the `target` directory and run it using `java -jar target/Sorting-Visualizer-1.0-SNAPSHOT.jar` (adjust the JAR file name as necessary based on the version defined in your `pom.xml`).
 
 ## Usage
 - Once the application is running, select an algorithm from the available list.
@@ -44,7 +38,7 @@ Alternatively, if you prefer using the command line with Apache Ant:
 Contributions to the Sorting Visualizer are welcome. Please feel free to fork the project, make your changes, and submit a pull request for review.
 
 ## License
-Quant Market Predictor is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Sorting Visualizer is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 # Implemented Algorithms
 - Bubble Sort

@@ -1,8 +1,14 @@
 public class SelectionSort implements Panel.SortingAlgorithm {
     
     private final Panel visualizer;
+    private final boolean test;
 
+    public SelectionSort() {
+        test = true;
+        this.visualizer = null;
+    }
     public SelectionSort(Panel visualizer) {
+        test = false;
         this.visualizer = visualizer;
     }
     
@@ -13,15 +19,19 @@ public class SelectionSort implements Panel.SortingAlgorithm {
             for (int j = i + 1; j < list.length; j++){  
                 if (list[j] < list[index]){  
                     index = j;
-                    if (visualizer.threadInterrupted()) return;
-                    visualizer.animate(i, 2500000);
+                    if (!test && visualizer != null) {
+                        if (visualizer.threadInterrupted()) return;
+                        visualizer.animate(i, 2500000);
+                    }
                 }  
             }  
             int smallerNumber = list[index];   
             list[index] = list[i];  
             list[i] = smallerNumber;  
         }
-        visualizer.checkSorted(list);   
-        visualizer.buttonsEnabled(true);
+        if (!test && visualizer != null) {
+            visualizer.checkSorted(list);
+            visualizer.buttonsEnabled(true);
+        }
     }  
 }
