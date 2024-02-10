@@ -48,16 +48,16 @@ Sorting Visualizer is released under the MIT License. See the [LICENSE](LICENSE)
 - Quick Sort
 
 # Bubble Sort
-![BubbleSort](images/bubblesort.gif)
+![BubbleSort](resources/bubblesort.gif)
 
 # Selection Sort
-![SelectionSort](images/selectionsort.gif)
+![SelectionSort](resources/selectionsort.gif)
 
 # Insertion Sort
-![InsertionSort](images/insertionsort.gif)
+![InsertionSort](resources/insertionsort.gif)
 
 # Merge Sort
-![MergeSort](images/mergesort.gif)
+![MergeSort](resources/mergesort.gif)
 
 # Quick Sort
-![QuickSort](images/quicksort.gif)
+![QuickSort](resources/quicksort.gif)
