@@ -1,63 +1,122 @@
-# Sorting Visualizer
+# 🔢 Sorting Visualizer
 
-## Overview
-Sorting Visualizer is a Java-based application designed to visually demonstrate how different sorting algorithms work. It allows users to see the real-time sorting process, understand the mechanics behind each algorithm, and compare their performance.
+## 📌 Overview
+**Sorting Visualizer** is a Java-based GUI application that visually demonstrates how various sorting algorithms work. It provides an interactive way to learn, observe, and compare different sorting strategies in real-time.
 
-## Features
-- Visual representation of sorting algorithms in real-time.
-- Supports multiple sorting algorithms, including but not limited to Bubble Sort, Quick Sort, Merge Sort, and Insertion Sort.
-- Interactive GUI for easy manipulation and observation.
+---
 
-## Technology Stack
-- **Java**: Core programming language used for application development.
-- **Maven**: Utilized for automating build processes and managing dependencies.
-- **Any IDE** or **Text Editor**: The project can be developed and configured using any IDE or text editor, though examples are provided for command line operations for simplicity.
+## ✨ Features
+- 🎞️ Real-time visualization of sorting algorithms.
+- 🧠 Understand algorithm behavior step by step.
+- 📊 Compare performance of multiple algorithms.
+- 🖱️ Interactive GUI – intuitive and easy to use.
 
-## Setup Instructions
-1. **Prerequisites**:
-   - Ensure Java Development Kit (JDK) is installed on your system.
-   - Maven should be installed for building and managing the project's dependencies.
+---
 
-2. **Clone or download the project**:
-   - Obtain the project files by cloning this repository or downloading the provided ZIP file.
+## 🛠️ Tech Stack
+- **Java** – Primary programming language.
+- **Maven** – Build automation and dependency management.
+- **Swing/AWT** – For graphical interface.
+- **Any IDE** – IntelliJ, Eclipse, or just your favorite text editor.
 
-3. **Building the Project with Maven**:
-   - Navigate to the project root directory in the terminal.
-   - Run `mvn clean install` to build the project and install the artifact into your local repository.
+---
 
-4. **Running the Application**:
-   - After building, execute `mvn exec:java` to run the application directly via Maven.
-   - Alternatively, you can run the generated JAR file manually. Find the JAR in the `target` directory and run it using `java -jar target/Sorting-Visualizer-1.0-SNAPSHOT.jar` (adjust the JAR file name as necessary based on the version defined in your `pom.xml`).
+## 🚀 Setup Instructions
 
-## Usage
-- Once the application is running, select an algorithm from the available list.
-- Initiate the sorting process to see the algorithm in action.
-- Observe the sorting in real-time and compare the performance metrics displayed.
+### 1. ✅ Prerequisites
+Make sure you have the following installed:
 
-## Contributing
-Contributions to the Sorting Visualizer are welcome. Please feel free to fork the project, make your changes, and submit a pull request for review.
+- Java JDK (version 8 or later)  
+  ```bash
+  java -version
+  ```
+- Maven  
+  ```bash
+  mvn -version
+  ```
 
-## License
-Sorting Visualizer is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
+> If not installed, download [Java JDK](https://adoptopenjdk.net/) and [Maven](https://maven.apache.org/install.html).
 
-# Implemented Algorithms
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
+---
 
-# Bubble Sort
+### 2. 📁 Clone the Repository
+```bash
+git clone https://github.com/your-username/sorting-visualizer.git
+cd sorting-visualizer
+```
+> Or download the ZIP and extract it.
+
+---
+
+### 3. ⚙️ Build the Project with Maven
+```bash
+mvn clean install
+```
+
+---
+
+### 4. ▶️ Run the Application
+
+#### Option A: Using Maven directly
+```bash
+mvn exec:java
+```
+
+#### Option B: Run the JAR manually
+```bash
+java -jar target/Sorting-Visualizer-1.0-SNAPSHOT.jar
+```
+> Make sure the version in the filename matches the version in your `pom.xml`.
+
+---
+
+## 🧪 Usage
+1. Launch the application.
+2. Select a sorting algorithm (e.g., Bubble Sort, Quick Sort).
+3. Click "Start" to begin visualizing the sorting process.
+4. Watch as elements are compared and swapped in real time.
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome!  
+To contribute:
+```bash
+# Fork the repo
+# Make changes
+# Push to your branch
+# Open a PR
+```
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📚 Implemented Algorithms
+- ✅ Bubble Sort
+- ✅ Selection Sort
+- ✅ Insertion Sort
+- ✅ Merge Sort
+- ✅ Quick Sort
+
+---
+
+## 🖼️ Demo Visuals
+
+### 🔁 Bubble Sort
 ![BubbleSort](resources/bubblesort.gif)
 
-# Selection Sort
+### 🎯 Selection Sort
 ![SelectionSort](resources/selectionsort.gif)
 
-# Insertion Sort
+### ✍️ Insertion Sort
 ![InsertionSort](resources/insertionsort.gif)
 
-# Merge Sort
+### 🧩 Merge Sort
 ![MergeSort](resources/mergesort.gif)
 
-# Quick Sort
+### ⚡ Quick Sort
 ![QuickSort](resources/quicksort.gif)
